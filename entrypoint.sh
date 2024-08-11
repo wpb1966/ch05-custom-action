@@ -2,7 +2,7 @@
 set -e
 
 MSG=""
-for $word in "$*" ; do
+for word in "$*" ; do
 	if [[ -n $MSG ]] ; then
 		MSG="$MSG $word"
 	else
