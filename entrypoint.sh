@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-MSG = ""
+MSG=""
 for $word in "$*" ; do
 	if [[ -n $MSG ]] ; then
 		MSG="$MSG $word"
