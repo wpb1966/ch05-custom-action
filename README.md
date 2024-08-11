@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: wpb1966/ch05-custom-action@master
+    - uses: wpb1966/ch05-custom-action@main
       with:
         args: 'This a test of tester-1966'
 ```

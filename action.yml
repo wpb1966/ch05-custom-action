@@ -1,0 +1,8 @@
+name: 'Chapter 05 Customer Action'
+description: 'Greets the user and displays a message from the CLI'
+runs:
+   using: 'docker'
+   image: 'Dockerfile'
+branding:
+   icon: 'message-circle'
+   color: 'green'
